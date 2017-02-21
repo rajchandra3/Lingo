@@ -1,0 +1,70 @@
+.header{
+    background-color: #436EEE;
+    text-align: center;
+    height: 80px;
+    color: white;
+    font-size: xx-large;
+    font-family:sans-serif;
+}
+nav ul ol a:hover{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#8B4513;
+}
+nav ul ol a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#DA70D6;
+}
+nav ul ol{
+    font-weight: bolder;
+    display: inline-block;
+
+}
+nav{
+    text-align: center;
+    background-color: #FEE0C6;
+}
+.main-content{
+    /*background-image: url("https://unsupervisedlearning.files.wordpress.com/2012/07/emi-wordcloud.png");*/
+    background-size: 100% 100%;
+    background-color: rgb(24,45,67);
+    background-repeat: no-repeat;
+}
+/*.art{
+    display: center;
+    text-align: center;
+}*/
+.b-container{
+    background-color: ;
+    text-align: center;
+    margin-bottom: 1in;
+    margin-top: 1.3in;
+}
+.bs,.bm{
+    margin-top: 70px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+.link{
+    color: white;
+}
+.link:hover
+{
+    color:lightgrey;
+    text-decoration: none;
+}
+
+
+.border{
+    border: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.footer-container{
+    background-color: #EDEDED;
+}
+.foot{
+    font-family: 'Acme', sans-serif;
+}
