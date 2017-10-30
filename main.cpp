@@ -9,7 +9,8 @@ using namespace std;
 
 int main()
 {
-	cout<<"\n\n\t\t\t\t\t\t\t\t\tWelcome to Lingo\n\t\t\t\t\t\t\t\t**----------------------------**\n\n";
+	clrscr();
+    cout<<"\n\n\t\t\t\t\t\t\t\t\tWelcome to Lingo\n\t\t\t\t\t\t\t\t**----------------------------**\n\n";
     int i,j,c,f,random,counts=0;
     char w[5],nw[5],t[15],word[5]="",correct[5],guessed[]={'_','_','_','_','_'};
     char s[]={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -17,7 +18,7 @@ int main()
     for(i=0;i<5;i++)
     {
 		random=rand()%25+0;
-       	word[i]=s[random];			
+       	word[i]=s[random];
 	}
     strcpy(w,word);
     strcpy(correct,"false");
@@ -60,7 +61,7 @@ int main()
                     t[c]=nw[i];
                     c++;
                 }
-                
+
             }
         }
         t[c]='\0';
@@ -85,7 +86,7 @@ int main()
 				cout<<"\n\t\tYou have Guessed: NONE";
 			cout<<"\t-------------------------------------------------------------\tClue:"<<t<<endl;
 		}
-			 
+
     }
     getch();
 }
